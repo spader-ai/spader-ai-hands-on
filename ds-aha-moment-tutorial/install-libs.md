@@ -2,7 +2,7 @@
 
 - You need to run the following commands by yourself on terminal
 
-## set global pip proxy and hf endpoint miior
+## set global pip proxy and hf endpoint mirror
 
 ```bash
 mkdir -p ~/.pip && echo -e '[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple\ntrusted-host = pypi.tuna.tsinghua.edu.cn' >> ~/.pip/pip.conf
@@ -26,7 +26,7 @@ export UV_HTTP_TIMEOUT=300
 uv pip install flash-attn --no-build-isolation
 ```
 
- Instead, we can use the precompiled wheel file flash_attn-2.7.4.post1+cu12torch2.2cxx11abiFALSE-cp310-cp310-linux_x86_64.whl from [Github](https://github.com/Dao-AILab/flash-attention/releases) which contains key info as follows. Download corresponding file for your environment.
+ Instead, we can use the precompiled wheel file `flash_attn-2.7.4.post1+cu12torch2.2cxx11abiFALSE-cp310-cp310-linux_x86_64.whl` from [Github](https://github.com/Dao-AILab/flash-attention/releases) which contains key info as follows. Download the corresponding file for your environment.
 
  ```text
        cu12：CUDA 12.x
