@@ -1,0 +1,5 @@
+vllm>=0.9.0.1
+fastapi>=0.115.12
+uvicorn>=0.34.3
+python-jose>=3.5.0
+cryptography>=3.4.8
